@@ -1,14 +1,14 @@
 <!--
     =====================================
     generator=datazen
-    version=3.1.4
-    hash=ef9ccb0067eda7c7e9ec642305fbd978
+    version=3.2.1
+    hash=95ed0566e72beb345013babd63cfa8a0
     =====================================
 -->
 
 # python-package-template
 
-![Build Status](https://github.com/vkottler/python-package-template/workflows/Build%20Template/badge.svg)
+![Build Status](https://github.com/libre-embedded/python-package-template/workflows/Build%20Template/badge.svg)
 
 *This is a template intended to be used with
 [Cookiecutter](https://github.com/cookiecutter/cookiecutter).*
@@ -18,14 +18,14 @@
 Invoke `cookiecutter` and fill out information about your project:
 
 ```
-cookiecutter git@github.com:vkottler/python-package-template.git
+cookiecutter git@github.com:libre-embedded/python-package-template.git
 ```
 
 Example output (interactive):
 
 ```
-name [Vaughn Kottler]: <Your Name>
-email [vaughnkottler@gmail.com]: <your@email.com>
+name [Libre Embedded]: <Your Name>
+email [vaughn@libre-embedded.com]: <your@email.com>
 ...
 ```
 
@@ -39,8 +39,8 @@ This template is tested on the following platforms:
 
 and Python versions:
 
-* `python3.11`
 * `python3.12`
+* `python3.13`
 
 ## Structure
 
@@ -49,11 +49,11 @@ The resulting template is a [git](https://git-scm.com/) repository with a
 [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
 Once the base template is generated,
-[datazen](https://github.com/vkottler/datazen) runs because this package uses
+[datazen](https://github.com/libre-embedded/datazen) runs because this package uses
 it for many useful code generation and other static file generation tasks.
 
 The package is then linted, statically analyzed, tested and built into
-a distribution using [vmklib](https://github.com/vkottler/vmklib). These are
+a distribution using [vmklib](https://github.com/libre-embedded/vmklib). These are
 the core tasks that will be performed regularly during the package's
 life-cycle, so their initial success demonstrates that the package is already
 in a clean state and doesn't require additional boilerplate or setup. Simply

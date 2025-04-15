@@ -1,5 +1,5 @@
 ---
-python_versions: ["3.11", "3.12"]
+python_versions: ["3.12", "3.13"]
 
 systems:
   - macos-latest
