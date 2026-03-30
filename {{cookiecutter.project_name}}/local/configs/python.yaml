@@ -1,10 +1,4 @@
 ---
-author_info:
-  name: {{cookiecutter.name}}
-  email: {{cookiecutter.email}}
-  username: {{cookiecutter.username}}
-versions: ["3.11", "3.12"]
-
 systems:
   - macos-latest
   - windows-latest
