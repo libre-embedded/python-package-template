@@ -44,6 +44,7 @@ def datazen() -> None:
 
     # Render everything.
     mk_cmd(["dz-sync"])
+    mk_cmd(["python-format"])
 
 
 def remove_conditionals() -> None:
