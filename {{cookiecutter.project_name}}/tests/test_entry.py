@@ -9,7 +9,9 @@ from unittest.mock import patch
 
 # module under test
 from {{cookiecutter.project_slug}} import PKG_NAME
-from {{cookiecutter.project_slug}}.entry import main as {{cookiecutter.project_slug}}_main
+from {{cookiecutter.project_slug}}.entry import (
+    main as {{cookiecutter.project_slug}}_main,
+)
 
 
 def test_entry_basic():
@@ -25,4 +27,4 @@ def test_entry_basic():
 def test_package_entry():
     """Test the command-line entry through the 'python -m' invocation."""
 
-    check_output([executable, "-m", "{{cookiecutter.project_slug}}", "-h"])
+    check_output([executable, "-m", "coverage", "run", "-m", "{{cookiecutter.project_slug}}", "-h"])
